@@ -19,7 +19,7 @@
                     <reporter.debug>false</reporter.debug>
                 </systemPropertyVariables>
                 <suiteXmlFiles>
-                   <suiteXmlFile>D:\dev\Selenium\Automatedtests\src\main\Java\Testsuites\testng.xml</suiteXmlFile>
+                   <suiteXmlFile>\\src\\main\\Java\\Testsuites\\testng.xml</suiteXmlFile>
                 </suiteXmlFiles>
             </configuration>
     </plugin>
