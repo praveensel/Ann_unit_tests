@@ -69,13 +69,13 @@ public class Testbase {
                 threadDriver = new ThreadLocal<RemoteWebDriver>();
 
                 DesiredCapabilities caps = DesiredCapabilities.chrome();
-               // caps.setCapability("platform", "Windows 7");
-               // caps.setCapability("version", "35");
+               caps.setCapability("platform", "Windows 7");
+               caps.setCapability("version", "35");
                //caps.setBrowserName(browser);
                // caps.setVersion(browserVersion);
                 //commit
-                threadDriver.set(new RemoteWebDriver (new URL("http://localhost:4444/wd/hub"), caps));
-              // threadDriver.set(new RemoteWebDriver(new URL("http://praveenk82:3fb2157e-53e3-4c5d-8cf1-0b8131a08d74@ondemand.saucelabs.com:80/wd/hub"),caps));
+                //threadDriver.set(new RemoteWebDriver (new URL("http://localhost:4444/wd/hub"), caps));
+              threadDriver.set(new RemoteWebDriver(new URL("http://praveenk82:3fb2157e-53e3-4c5d-8cf1-0b8131a08d74@ondemand.saucelabs.com:80/wd/hub"),caps));
               //  baseURL=  baseURL1;
             }
 
