@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />  
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-Reporttest">
+              <span class="suite-name border-failed">Reporttest</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-Reporttest">
+                    <span>D:\dev\Selenium\Automatedtests\suite.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-Reporttest">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-Reporttest">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-Reporttest">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-Reporttest">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-Reporttest">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-Reporttest">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">2 methods, 2 failed,   </span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Reporttest" class="hide-methods failed suite-Reporttest"> (hide)</a> <!-- hide-methods failed suite-Reporttest -->
+                      <a href="#" panel-name="suite-Reporttest" class="show-methods failed suite-Reporttest"> (show)</a> <!-- show-methods failed suite-Reporttest -->
+                    </span>
+                    <div class="method-list-content failed suite-Reporttest">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Reporttest" title="com.Annectos.Webdriver.SeepTestCases.SeepProfilePageCases" hash-for-method="It_should_give_alert_to_enter_first_name(selenium.annecto.s@gmail.com, welcome, Praveen, Kumar, 19-06-1970, 14-05-2000, 9886869680, Eng)">It_should_give_alert_to_enter_first_name(selenium.annecto.s@gmail.com, welcome, Praveen, Kumar, 19-06-1970, 14-05-2000, 9886869680, Eng)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-Reporttest" title="com.Annectos.Webdriver.SeepTestCases.SeepProfilePageCases" hash-for-method="all_element_present(selenium.annecto.s@gmail.com, welcome)">all_element_present(selenium.annecto.s@gmail.com, welcome)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Reporttest -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Reporttest" class="panel Reporttest">
+          <div class="suite-Reporttest-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.Annectos.Webdriver.SeepTestCases.SeepProfilePageCases</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="It_should_give_alert_to_enter_first_name(selenium.annecto.s@gmail.com, welcome, Praveen, Kumar, 19-06-1970, 14-05-2000, 9886869680, Eng)">
+                  </a> <!-- It_should_give_alert_to_enter_first_name(selenium.annecto.s@gmail.com, welcome, Praveen, Kumar, 19-06-1970, 14-05-2000, 9886869680, Eng) -->
+                  <span class="method-name">It_should_give_alert_to_enter_first_name</span>
+                  <span class="parameters">(selenium.annecto.s@gmail.com, welcome, Praveen, Kumar, 19-06-1970, 14-05-2000, 9886869680, Eng)</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.openqa.selenium.support.PageFactory.instantiatePage(PageFactory.java:140)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:66)
+	at com.Annectos.Webdriver.SeepTestCases.SeepProfilePageCases.It_should_give_alert_to_enter_first_name(SeepProfilePageCases.java:48)
+	at org.openqa.selenium.support.PageFactory.instantiatePage(PageFactory.java:131)
+	... 35 more
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.37.1&apos;, revision: &apos;a7c61cbd68657e133ae96672cf995890bad2ee42&apos;, time: &apos;2013-10-21 09:08:07&apos;
+System info: host: &apos;QA-LP-002&apos;, ip: &apos;192.168.0.235&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_45&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:783)
+	at com.Annectos.Webdriver.SeepClaim.LoginPageObjects.&lt;init&gt;(LoginPageObjects.java:66)
+	... 40 more
+Caused by: org.apache.http.NoHttpResponseException: The target server failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:95)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:62)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:254)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:289)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:252)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:300)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:127)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:712)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:517)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:337)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:298)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	... 42 more
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="all_element_present(selenium.annecto.s@gmail.com, welcome)">
+                  </a> <!-- all_element_present(selenium.annecto.s@gmail.com, welcome) -->
+                  <span class="method-name">all_element_present</span>
+                  <span class="parameters">(selenium.annecto.s@gmail.com, welcome)</span>
+                  <div class="stack-trace">java.lang.RuntimeException: java.lang.reflect.InvocationTargetException
+	at org.openqa.selenium.support.PageFactory.instantiatePage(PageFactory.java:140)
+	at org.openqa.selenium.support.PageFactory.initElements(PageFactory.java:66)
+	at com.Annectos.Webdriver.SeepTestCases.SeepProfilePageCases.all_element_present(SeepProfilePageCases.java:28)
+	at org.openqa.selenium.support.PageFactory.instantiatePage(PageFactory.java:131)
+	... 35 more
+Caused by: org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.
+Build info: version: &apos;2.37.1&apos;, revision: &apos;a7c61cbd68657e133ae96672cf995890bad2ee42&apos;, time: &apos;2013-10-21 09:08:07&apos;
+System info: host: &apos;QA-LP-002&apos;, ip: &apos;192.168.0.235&apos;, os.name: &apos;Windows 7&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;6.1&apos;, java.version: &apos;1.7.0_45&apos;
+Driver info: driver.version: RemoteWebDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteWindow.maximize(RemoteWebDriver.java:783)
+	at com.Annectos.Webdriver.SeepClaim.LoginPageObjects.&lt;init&gt;(LoginPageObjects.java:66)
+	... 40 more
+Caused by: org.apache.http.NoHttpResponseException: The target server failed to respond
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:95)
+	at org.apache.http.impl.conn.DefaultHttpResponseParser.parseHead(DefaultHttpResponseParser.java:62)
+	at org.apache.http.impl.io.AbstractMessageParser.parse(AbstractMessageParser.java:254)
+	at org.apache.http.impl.AbstractHttpClientConnection.receiveResponseHeader(AbstractHttpClientConnection.java:289)
+	at org.apache.http.impl.conn.DefaultClientConnection.receiveResponseHeader(DefaultClientConnection.java:252)
+	at org.apache.http.impl.conn.AbstractClientConnAdapter.receiveResponseHeader(AbstractClientConnAdapter.java:219)
+	at org.apache.http.protocol.HttpRequestExecutor.doReceiveResponse(HttpRequestExecutor.java:300)
+	at org.apache.http.protocol.HttpRequestExecutor.execute(HttpRequestExecutor.java:127)
+	at org.apache.http.impl.client.DefaultRequestDirector.tryExecute(DefaultRequestDirector.java:712)
+	at org.apache.http.impl.client.DefaultRequestDirector.execute(DefaultRequestDirector.java:517)
+	at org.apache.http.impl.client.AbstractHttpClient.execute(AbstractHttpClient.java:906)
+	at org.openqa.selenium.remote.HttpCommandExecutor.fallBackExecute(HttpCommandExecutor.java:337)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:298)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:527)
+	... 42 more
+... Removed 38 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Reporttest-class-failed -->
+        </div> <!-- panel Reporttest -->
+        <div panel-name="test-xml-Reporttest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\dev\Selenium\Automatedtests\suite.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite verbose=&quot;0&quot; name=&quot;Reporttest&quot;&gt;
+  &lt;parameter name=&quot;browserVersion&quot; value=&quot;ANY&quot;/&gt;
+  &lt;parameter name=&quot;RunMode&quot; value=&quot;grid&quot;/&gt;
+  &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
+  &lt;parameter name=&quot;PlatformName&quot; value=&quot;ANY&quot;/&gt;
+  &lt;parameter name=&quot;URL&quot; value=&quot;http://seep-digilink.in/&quot;/&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;firefox &quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.Annectos.Webdriver.SeepTestCases.SeepProfilePageCases&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- firefox  --&gt;
+&lt;/suite&gt; &lt;!-- Reporttest --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Reporttest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Reporttest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">firefox  (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Reporttest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Reporttest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Reporttest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Reporttest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Reporttest');
+function tableData_Reporttest() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(2);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'It_should_give_alert_to_enter_first_name')
+data.setCell(0, 2, 'com.Annectos.Webdriver.SeepTestCases.SeepProfilePageCases')
+data.setCell(0, 3, 602709);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'all_element_present')
+data.setCell(1, 2, 'com.Annectos.Webdriver.SeepTestCases.SeepProfilePageCases')
+data.setCell(1, 3, 602668);
+window.suiteTableData['Reporttest']= { tableData: data, tableDiv: 'times-div-Reporttest'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 20 minutes</span>
+              <div id="times-div-Reporttest">
+              </div> <!-- times-div-Reporttest -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Reporttest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Reporttest</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Reporttest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Reporttest" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.Annectos.Webdriver.SeepTestCases.SeepProfilePageCases</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <span class="method-name">beforeclass(http://seep-digilink.in/)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, grid, http://localhost:4444/wd/hub, ANY, ANY, http://seep-digilink.in/)</span>
+                <span class="method-start">333 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">It_should_give_alert_to_enter_first_name(selenium.annecto.s@gmail.com, welcome, Praveen, Kumar, 19-06-1970, 14-05-2000, 9886869680, Eng)</span>
+                <span class="method-start">7661 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">610390 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(chrome, grid, http://localhost:4444/wd/hub, ANY, ANY, http://seep-digilink.in/)</span>
+                <span class="method-start">611096 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">all_element_present(selenium.annecto.s@gmail.com, welcome)</span>
+                <span class="method-start">616875 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">1219545 ms</span>
+              </div> <!-- configuration-method after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

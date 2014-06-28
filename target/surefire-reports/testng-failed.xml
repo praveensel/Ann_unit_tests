@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite verbose="0" name="Failed suite [Reporttest]">
+  <parameter name="browserVersion" value="ANY"/>
+  <parameter name="RunMode" value="grid"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="PlatformName" value="ANY"/>
+  <parameter name="URL" value="http://seep-digilink.in/"/>
+  <listeners>
+    <listener class-name="org.uncommons.reportng.HTMLReporter"/>
+    <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
+  </listeners>
+  <test name="firefox (failed)">
+    <classes>
+      <class name="com.Annectos.Webdriver.SeepTestCases.SeepProfilePageCases">
+        <methods>
+          <include name="all_element_present" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="closeBrowser"/>
+          <include name="beforeclass"/>
+          <include name="It_should_give_alert_to_enter_first_name" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.Annectos.Webdriver.SeepTestCases.SeepProfilePageCases -->
+    </classes>
+  </test> <!-- firefox (failed) -->
+</suite> <!-- Failed suite [Reporttest] -->
